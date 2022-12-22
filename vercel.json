@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "Parcial1-MCGA/src/index.js",
+        "src": "MCGA_FINAL_BACK/src/index.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "Parcial1-MCGA/src/index.js",
+        "dest": "MCGA_FINAL_BACK/src/index.js",
         "headers": {
           "Access-Control-Allow-Credentials": "true",
           "Access-Control-Allow-Origin": "*",
